@@ -1,0 +1,41 @@
+/* Navbar container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 80px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo container */
+  .logo-container {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://daily.jstor.org/wp-content/uploads/2023/01/good_times_with_bad_music_1050x700.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  }
+  
+  /* Links container */
+  .links-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Login link */
+  .login-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  /* Active link */
+  .login-link.active {
+    color: #f00;
+    text-decoration: underline;
+  }
+  
